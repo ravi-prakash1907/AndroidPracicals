@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_a_course"
+        android:id="@+id/title"
+        android:textSize="20sp"
+        android:layout_margin="4dp"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_below="@id/title"
+        android:layout_margin="4dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hod_is"
+        android:layout_above="@id/result"
+        android:textSize="20sp"
+        android:layout_margin="4dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/result"
+        android:layout_alignParentBottom="true"
+        android:textSize="20sp"
+        android:layout_margin="4dp"
+        android:gravity="center"/>
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Practical7</string>
+    <string name="username">admin</string>
+    <string name="password">password</string>
+</resources>

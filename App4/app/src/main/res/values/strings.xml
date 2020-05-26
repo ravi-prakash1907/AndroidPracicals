@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Practical4</string>
+    <string name="option_one">option one</string>
+    <string name="option_two">option two</string>
+    <string name="option_three">option three</string>
+    <string name="option_four">option four</string>
+    <string name="option_five">option five</string>
+    <string name="select_a_option_first">Please select an option first</string>
+    <string name="result_title">Selected Value</string>
+    <string name="title">Please Select an option</string>
+</resources>

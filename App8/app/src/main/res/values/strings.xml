@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Practical8</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="login">LOGIN</string>
+    <string name="list_users">LIST USERS</string>
+    <string name="title">SQLITE DEMO</string>
+    <string name="title_activity_create_account">CreateAccount</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="title_activity_list_users">ListUsers</string>
+    <string name="users">USERS</string>
+    <string name="title_activity_login">login</string>
+    <string name="delete_user">Remove Account</string>
+    <string name="title_activity_remove_user">RemoveUser</string>
+</resources>

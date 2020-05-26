@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        android:layout_margin="4dp"
+        android:id="@+id/username_edittext_remove_user"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_user"
+        android:id="@+id/remove_user_button"
+        android:layout_below="@id/username_edittext_remove_user"
+        android:layout_margin="4dp"/>
+
+</RelativeLayout>

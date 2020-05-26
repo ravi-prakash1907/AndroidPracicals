@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:text="@string/title"
+        android:id="@+id/title"
+        android:textSize="30sp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radio_group_options"
+        android:layout_margin="2dp"
+        android:layout_below="@id/title">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/option_one"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/option_two"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/option_three"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/option_four"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/option_five"
+            android:textSize="20sp"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/result"
+        android:textSize="20sp"
+        android:layout_margin="2dp"
+        android:text="@string/result_title"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/select_a_option_first"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_margin="2dp"
+        android:id="@+id/result"
+        android:layout_marginBottom="10dp"/>
+
+</RelativeLayout>

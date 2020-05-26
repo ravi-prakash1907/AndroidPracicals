@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="courses">
+        <item>
+            ABC
+        </item>
+        <item>
+            BCD
+        </item>
+        <item>
+            CDE
+        </item>
+    </string-array>
+    <string-array name="hod">
+        <item>
+            abc
+        </item>
+        <item>
+            bcd
+        </item>
+        <item>
+            cde
+        </item>
+    </string-array>
+</resources>
